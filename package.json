@@ -1,0 +1,14 @@
+{
+  "name": "simon-dice",
+  "version": "1.0.0",
+  "description": "Juego para Curso JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "FH",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  }
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <title>MemoTest JavaScript</title>
+</head>
+<body>
+<style>
+    .sinmostrar{
+        
+     background-color: #000!important;
+
+    }
+.oculto{
+    display: none;
+}    
+.btn{
+margin-left: 550px;
+margin-top: 50px;
+}
+.cuadro{
+    background-color: #000;
+    height: 200px;
+    margin: 5px;
+    transition: ease 1s;
+}
+.ganaste{
+    font-size: 80px;
+    color: greenyellow;
+    font-weight: 700;
+    display: block!important;
+    text-align: center;
+}
+.a {
+transition: ease 0.2s;
+background-color: red ;
+}
+.b {
+transition: ease 0.2s;
+background-color:blue ;
+}
+.c {
+transition: ease 0.2s;
+background-color:cyan ;
+}
+.d {
+transition: ease 0.2s;
+background-color:olivedrab ;
+}
+.e {
+transition: ease 0.2s;
+background-color:yellow ;
+}
+.f {
+transition: ease 0.2s;
+background-color: violet ;
+}
+
+
+
+</style>
+    <button type="button" class="btn btn-primary btn-lg" onclick="empezarJuego()" id="botonempezar">Comenzar</button>
+<div id="ganaste" class="d-none">
+    
+
+</div>
+
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+            <div class="col">
+                <div class="cuadro sinmostrar" id="cuadro1">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="cuadro sinmostrar" id="cuadro2">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="cuadro sinmostrar" id="cuadro3">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="cuadro sinmostrar" id="cuadro4">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="cuadro sinmostrar" id="cuadro5">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="cuadro sinmostrar" id="cuadro6">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="cuadro sinmostrar" id="cuadro7">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="cuadro sinmostrar" id="cuadro8">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="cuadro sinmostrar" id="cuadro9">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="cuadro sinmostrar" id="cuadro10">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="cuadro sinmostrar" id="cuadro11">
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="cuadro sinmostrar" id="cuadro12">
+
+                </div>
+            </div>
+        </div>
+        <h2 id="contador"></h2>
+        <h2 id="contador-intentos"></h2>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
